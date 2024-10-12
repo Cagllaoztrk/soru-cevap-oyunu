@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="js/script.js"></script>
+    <title>Harry Potter Quiz</title>
+</head>
+
+<body>
+    <br>
+    <div class="row">
+        <div class="column left">
+            <h3>PUAN<br><span id="dogru">0</span>/<span id="toplam">0</span></h3>
+            <br><br>
+            <h3>KALAN SÜRE<br><span>00</span>:<span id="sifir"></span><span id="zaman">00</span></h3>
+
+        </div>
+        <div class="column middle">
+            <div id="gorsel">
+                <img src="assets/kurallar.png">
+            </div>
+            <div class="ortalama">
+                <h3 id="baslik">KURALLAR</h3>
+                <p id="soru">
+                    Quiz 5 sorudan oluşur.<br> Quiz sonunda alacağınız puan, doğru yanıtladığınız soruların puanları toplamıdır.<br> Her soru için 20 saniyeniz var.<br> Süre bitmeden soruları yanıtlayınız.
+                </p>
+            </div>
+        </div>
+        <div class="column right">
+            <p id="dogru-yanlis"></p>
+            <hr>
+            <div id="baslat">
+                <button id="bos">Hadi Başlayalım</button>
+            </div>
+            <div id="buton">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

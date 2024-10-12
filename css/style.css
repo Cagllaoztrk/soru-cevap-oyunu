@@ -1,0 +1,68 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/arkaplan.jpg);
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.left {
+    width: 15%;
+}
+
+.column.right {
+    width: 25%;
+}
+
+.column.middle {
+    width: 60%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .column.left, .column.right, .column.middle {
+        width: 100%;
+    }
+}
+.ortalama{
+    margin-left: 100px;
+}
+.row img {
+    width: 650px;
+    height: 350px;
+    margin-left: 80px;
+    border-radius: 2%;
+
+}
+video{
+    width: 650px;
+    height: 270px;
+    margin-left: 80px;
+}
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 13px 9px;
+    cursor: pointer;
+    width: 300px;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
